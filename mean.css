@@ -95,12 +95,6 @@ h1{
     color: black;
     border: 2px solid #000;
 }
-.fea{
-    display: flex;
-}
-.fea:hover{
-    
-}
 .image{
     display: flex;
     gap: 20px;
