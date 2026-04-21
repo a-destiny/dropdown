@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drop</title>
     <link rel="stylesheet" href="./mean.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
        <main>
         <!--NAVBAR SECTION -->
         <section class="navbar">
+          <div>
+            <span><img src="./images/logo.svg" class="logo" placeholder="logo"></span>
+          </div>
+
+           <button class="menu-btn" id="menuBtn">☰</button>
             <nav class="rightNav">
-
-               <span><img src="./images/logo.svg" alt="" placeholder="logo"></span>
-
                <section class="nav-links">
 
                 <span>
@@ -21,23 +24,22 @@
                 <img src="./images/icon-arrow-down.svg" alt="">
                 </span>
 
-              <span>
-              <a href="">Company</a>
-                <img src="./images/icon-arrow-down.svg" alt="">
-              </span>
+               <span>
+                <a href="">Company</a>
+                 <img src="./images/icon-arrow-down.svg" alt="">
+               </span>
           
                 <a href="">Careers</a>
                 <a href="">About</a>
-               </section>
+              </section>
 
-            </nav>
+                <span class="leftNav">
+                  <button class="btn">Login</button>
+                 <button class="btn">Register</button>
+                </span>
 
-
-            <nav class="leftNav">
-                <button class="btn">Login</button>
-                <button class="btn">Register</button>
-            </nav>
-        </section>
+              </nav>
+        </section> 
         <!--NAVBAR  SECTION-->
 
         <!--HERO SECTION  -->
@@ -63,10 +65,14 @@
              <div class="heroimg">
                <img src="./images/image-hero-desktop.png" alt="Hero Image" class="heroImage"> 
              </div>
+             <div class="zeroimg">
+               <img src="./images/image-hero-mobile.png" alt="Hero Image" class="mobileImage"> 
+             </div>
             <!-- left section  -->
         </div>
         <!--HERO SECTION  -->
 
-       </main> 
+       </main>
+       <script src="./script.js"></script> 
 </body>
 </html>
